@@ -1,16 +1,24 @@
-# movie_today
+# Flutter UI Challenge for a design
 
-A new Flutter project.
+Design for a UI I found on instagram 
 
-## Getting Started
+[Instagram UI](https://www.instagram.com/p/B8RK713A-1u/?igshid=tpapc1kg1qy2)
 
-This project is a starting point for a Flutter application.
+# Design
 
-A few resources to get you started if this is your first Flutter project:
+![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/designersbookshopwebdesign_20200210_165204_0.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Screenshots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191913.jpg)
+
+![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191921.jpg)
+
+![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191926.jpg)
+
+![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/movie.gif)
+
+# APK 
+
+Download apk and test on your phone
+[APK Link](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/movie_today.apk)
