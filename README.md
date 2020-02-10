@@ -10,16 +10,14 @@ Design for a UI I found on instagram
 
 # Screenshots
 
-           |  
-:-------------------------:|:-------------------------:
-![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191913.jpg)  |  
-![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191926.jpg)
+![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191926.jpg height="100"  width="48") 
 
-![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191913.jpg)
+![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191913.jpg height="100"  width="48")
 
-![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191921.jpg)
 
-![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191926.jpg)
+![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191921.jpg height="100"  width="48")
+
+![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/Screenshot_20200210-191926.jpg height="100"  width="48")
 
 ![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/movie.gif)
 
