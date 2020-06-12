@@ -1,45 +1,41 @@
-[  {
-    "name":  "Toy Story 4",
-    "category":  "Animation, Adventure",
-    "rating": 3.9,
-    "description":
-        "Woody attempts to make Forky, a toy, suffering from existential crisis, realise his importance in the life of Bonnie, their owner. However, things become difficult when Gabby Gabby enters their lives.",
-    "image":
-        "https://cdn.flickeringmyth.com/wp-content/uploads/2019/02/Toy-Story-4-intl-poster-600x817.jpg"
-  },
-  {
-    "name":  "Godzilla",
-    "category":  "Action, Adventure",
-    "rating": 4.1,
-    "description":
-        "Ford and his father, Joe, find evidence pointing to the existence of giant creatures. When the creatures, classified as MUTO, surface, Godzilla, an ancient behemoth, rises to fight them.",
-    "image":
-        "https://specials-images.forbesimg.com/imageserve/5d07abec34a5c400084894e0/960x0.jpg?fit=scale"
-  },
-  {
-    "name":  "Black Panther",
-    "category":  "Action, Adventure",
-    "rating": 4.3,
-    "description":
-        "After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/91%2BGjGet65L._AC_SL1500_.jpg"
-  },
-  {
-    "name":  "The Incredibles 2",
-    "category":  "Animation, Adventure",
-    "rating": 4.3,
-    "description":
-        "Entrusted with a task to restore public faith in superheroes, Helen sets off on a mission to catch a supervillain, while Bob faces the challenges of stay-at-home parenting.",
-    "image":
-        "https://res.cloudinary.com/jerrick/image/upload/fl_progressive,q_auto,w_1024/pery50jepiyjs2zowtzc.jpg"
-  },
-  {
-    "name":  "Spider-Man: Into the Spider-Verse",
-    "category":  "Animation, Adventure",
-    "rating": 4.8,
-    "description":
-        "After gaining superpowers from a spider bite, Miles Morales protects the city as Spider-Man. Soon, he meets alternate versions of himself and gets embroiled in an epic battle to save the multiverse.",
-    "image":
-        "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fmarkhughes%2Ffiles%2F2018%2F12%2FSPIDER-MAN-INTO-THE-SPIDER-VERSE-poster-1-202x300.jpg"
-  }
-]
+{
+  "total": 5,
+"page": 1,
+"per_page": 5,
+"data": [
+{
+"name": "Toy Story 4",
+"category": "Animation, Adventure",
+"rating": 3.9,
+"description": "Woody attempts to make Forky, a toy, suffering from existential crisis, realise his importance in the life of Bonnie, their owner. However, things become difficult when Gabby Gabby enters their lives.",
+"image": "https://cdn.flickeringmyth.com/wp-content/uploads/2019/02/Toy-Story-4-intl-poster-600x817.jpg"
+},
+{
+"name": "Godzilla",
+"category": "Action, Adventure",
+"rating": 4.1,
+"description": "Ford and his father, Joe, find evidence pointing to the existence of giant creatures. When the creatures, classified as MUTO, surface, Godzilla, an ancient behemoth, rises to fight them.",
+"image": "https://specials-images.forbesimg.com/imageserve/5d07abec34a5c400084894e0/960x0.jpg?fit=scale"
+},
+{
+"name": "Black Panther",
+"category": "Action, Adventure",
+"rating": 4.3,
+"description": "After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.",
+"image": "https://images-na.ssl-images-amazon.com/images/I/91%2BGjGet65L._AC_SL1500_.jpg"
+},
+{
+"name": "The Incredibles 2",
+"category": "Animation, Adventure",
+"rating": 4.3,
+"description": "Entrusted with a task to restore public faith in superheroes, Helen sets off on a mission to catch a supervillain, while Bob faces the challenges of stay-at-home parenting.",
+"image": "https://res.cloudinary.com/jerrick/image/upload/fl_progressive,q_auto,w_1024/pery50jepiyjs2zowtzc.jpg"
+},
+{
+"name": "Spider-Man: Into the Spider-Verse",
+"category": "Animation, Adventure",
+"rating": 4.8,
+"description": "After gaining superpowers from a spider bite, Miles Morales protects the city as Spider-Man. Soon, he meets alternate versions of himself and gets embroiled in an epic battle to save the multiverse.",
+"image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fmarkhughes%2Ffiles%2F2018%2F12%2FSPIDER-MAN-INTO-THE-SPIDER-VERSE-poster-1-202x300.jpg"
+}
+]}
