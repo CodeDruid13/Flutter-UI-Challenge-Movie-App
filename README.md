@@ -20,7 +20,9 @@ Download apk and test on your phone
 
 
 
-
 ![alt text](https://github.com/CodeDruid13/Flutter-UI-Challenge-Movie-App/raw/master/movie.gif)
+
+
+The beta branch uses provider for state management for light and dark mode and also as an architecture with viewmodels and all the nice whistles of provider. Switch to it and see 
 
 
