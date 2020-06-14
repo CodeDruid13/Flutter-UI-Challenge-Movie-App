@@ -25,6 +25,13 @@ dependencies:
   cupertino_icons: ^0.1.2
 
   font_awesome_flutter: ^8.5.0
+  provider: ^4.0.1
+  get_it: ^4.0.2
+  flutter_spinkit: "^4.1.2"
+  cached_network_image: ^2.2.0+1
+  dio: ^3.0.9
+  shared_preferences: ^0.5.7+3
+  dartz: ^0.9.1
 
 dev_dependencies:
   flutter_test:
@@ -43,11 +50,12 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/logo/
 
   fonts:
-    - family: FredokaOne
+    - family: Valera
       fonts:
-        - asset: assets/fonts/FredokaOne-Regular.ttf
+        - asset: assets/fonts/VarelaRound.ttf
     
 
   # To add assets to your application, add an assets section, like this:

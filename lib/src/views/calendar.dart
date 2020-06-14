@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_today/src/utils/constants.dart';
+import 'package:movie_today/src/core/utils/constants.dart'; 
 
 class CalendarPage extends StatefulWidget {
   @override
@@ -21,7 +21,7 @@ class _CalendarPageState extends State<CalendarPage> {
                 children: <Widget>[
                   Text("Calendar",
                       style:
-                          TextStyle(fontSize: 24, color: Constants.darkPrimary)
+                          TextStyle(fontSize: 24)
                       // .copyWith(color: widget.palette.lightMutedColor.color),
                       ),
                 ],

@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:movie_today/src/core/utils/constants.dart';
 
-import 'package:movie_today/src/widgets/text_style.dart' as styles;
-import 'package:movie_today/src/utils/constants.dart';
 
 import 'package:movie_today/src/views/movie.dart';
 import 'package:movie_today/src/views/favorites.dart';
@@ -42,28 +41,25 @@ class _NavigationPageState extends State<NavigationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Constants.lightBG,
       body: this.callPage(this._cIndex),
       bottomNavigationBar: BottomNavigationBar(
         elevation: 0,
         currentIndex: _cIndex,
         type: BottomNavigationBarType.fixed , 
-        unselectedLabelStyle: styles.ThemeText.bottomBardeselected,
-        selectedLabelStyle: styles.ThemeText.bottomBar,
-        selectedItemColor: Constants.darkPrimary, 
-        unselectedItemColor: Colors.blueGrey.withOpacity(0.7),
+        selectedItemColor: Constants.darkAccent, 
+        unselectedItemColor: Colors.grey.withOpacity(0.7),
         items: [
           BottomNavigationBarItem(
-              icon: Icon(FontAwesomeIcons.film),
-              title: new Text('')
+              icon: Icon(FontAwesomeIcons.film,size: 22,),
+              title: new Text('', style: TextStyle(fontSize: 1),)
           ),
           BottomNavigationBarItem(
-              icon: Icon(FontAwesomeIcons.bookmark),
-              title: new Text('')
+              icon: Icon(FontAwesomeIcons.bookmark,size: 22,),
+              title: new Text('', style: TextStyle(fontSize: 1),)
           ),
           BottomNavigationBarItem(
-              icon: Icon(FontAwesomeIcons.calendar),
-              title: new Text('')
+              icon: Icon(FontAwesomeIcons.calendar,size: 22,),
+              title: new Text('', style: TextStyle(fontSize: 1),)
           ), 
         ],
         onTap: (index){

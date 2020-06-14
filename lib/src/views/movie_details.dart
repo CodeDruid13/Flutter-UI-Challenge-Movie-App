@@ -1,14 +1,14 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:movie_today/src/model/data.dart';
-import 'package:movie_today/src/utils/constants.dart';
+import 'package:movie_today/src/core/utils/constants.dart';
 import 'dart:ui';
 
 import 'package:movie_today/src/widgets/rating.dart';
 
 class MovieMoreDetails extends StatefulWidget {
-  final Movie movie;
+  final Map movie;
 
   MovieMoreDetails(this.movie, {Key key}) : super(key: key);
   @override
@@ -21,16 +21,14 @@ class _EventsMoreDetailsState extends State<MovieMoreDetails> {
     return Scaffold(
       body: Stack(
         children: <Widget>[
-          Image.asset(
-            widget.movie.image,
+          CachedNetworkImage(
+            imageUrl: widget.movie['image'],
             height: double.infinity,
             width: double.infinity,
             fit: BoxFit.fitHeight,
           ),
-
           //This container allows text to be seen incase image is white
-           Container(
-              color: Colors.black.withOpacity(0.1)),
+          Container(color: Colors.black.withOpacity(0.1)),
           Align(
               alignment: Alignment.topLeft,
               child: Padding(
@@ -79,7 +77,7 @@ class _EventsMoreDetailsState extends State<MovieMoreDetails> {
                 SizedBox(
                   height: 120,
                 ),
-                Text(widget.movie.name,
+                Text(widget.movie['name'],
                     style: TextStyle(fontSize: 35, color: Colors.white)
                     // .copyWith(color: widget.palette.lightMutedColor.color),
                     ),
@@ -90,12 +88,12 @@ class _EventsMoreDetailsState extends State<MovieMoreDetails> {
                     starCount: 5,
                     color: Constants.lightBG,
                     allowHalfRating: true,
-                    rating: 4.9,
+                    rating: widget.movie['rating'],
                     size: 16.0,
                   ),
                 ),
                 SizedBox(height: 12),
-                Text(widget.movie.category,
+                Text(widget.movie['category'],
                     style: TextStyle(fontSize: 14, color: Colors.white)
                     // .copyWith(color: widget.palette.lightMutedColor.color),
                     ),
@@ -104,7 +102,7 @@ class _EventsMoreDetailsState extends State<MovieMoreDetails> {
                   flex: 2,
                   child: SingleChildScrollView(
                     scrollDirection: Axis.vertical,
-                    child: Text(widget.movie.description,
+                    child: Text(widget.movie['description'],
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
